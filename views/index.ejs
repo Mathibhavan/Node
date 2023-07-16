@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h5>This is the index page</h5>
+        <div>
+            <%=Math.random()%> <br>
+            Welcome <%=title%>
+        </div>
+        <div>
+            <ul>
+                <%
+                data.map((i)=>{
+                %><li><%=i%></li><%
+                })%>
+            </ul>
+        </div>
+    </body>
+</html>
